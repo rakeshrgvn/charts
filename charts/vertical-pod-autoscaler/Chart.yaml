@@ -13,8 +13,8 @@ sources:
 version: 6.1.0
 dependencies:
   - name: common
-    version: 1.16.1
-    repository: https://charts.bitnami.com/bitnami/
+    #version: 1.16.1
+    repository: oci://artifacts.auth.products.abbott/ap-aliniq-ghcr-remote/abbott-aliniq/aip2 #https://charts.bitnami.com/bitnami/
 annotations:
   artifacthub.io/signKey: |
     fingerprint: 9E57D2479D48B84463EF491F66D280CE667AD6C8
